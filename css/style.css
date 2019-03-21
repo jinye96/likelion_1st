@@ -1,0 +1,84 @@
+div.container{
+    text-align: center;
+}
+div.container > div.nav{
+    text-align: right;
+}
+div.container > div.nav > p{
+    display: inline;
+    color:dimgrey;
+    margin-right: 0.4em;
+    margin-top: 0.5em;
+}
+div.container > div.nav > p.user > img{
+    display: block;
+    float:right;
+}
+div.container > div.logo{
+    text-align: center;
+}
+div.container > div.logo > img {
+    display: block;
+    width: 30em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5em;
+}
+div.container > div.search{
+    display: inline-block;
+    border-radius: 25px;
+    border: transparent;
+    background-color:whitesmoke;
+    width: 45em;
+    height: 3.5em;
+}
+div.container > div.search > input {
+    width: 39em;
+    height: 3.4em;
+    border-radius: 25px;
+    border: transparent;
+    background-color:whitesmoke;
+    padding-left: 2em;
+    float: left;
+    font-size: 15px;
+}
+div.container > div.search > img {
+    width: 2.4em;
+    margin-top: 0.2em;
+    margin-left: 2em;
+
+}
+div.container > div.usually > div.r2{
+     display: block;
+     border: solid 1px red;
+}
+div.container > div.usually > div.r2 > div.icons
+{
+    border: solid 1px red;
+}
+div.container > div.usually > div.r2 > div.icons2
+{
+}div.container > div.usually > div.r2 > div.icons3
+{
+}div.container > div.usually > div.r2 > div.icons4
+{
+}
+div.container > div.usually > div.r1{
+    text-align: center;
+}
+div.container > div.usually > div.r1 > p{
+    display:inline-block;
+}
+
+div.container > div.usually > div.r2{
+    text-align: center;
+}
+/*div.container > div.usually > div.r2 > p{*/
+    /*display: inline-block;*/
+
+/*}*/
+/*div.container > div.usually > div.r1 > div > p{*/
+    /*display: inline;*/
+    /*border: solid 1px red;*/
+    /*position: relative;*/
+/*}*/
