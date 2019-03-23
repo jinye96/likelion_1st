@@ -48,37 +48,31 @@ div.container > div.search > img {
     margin-left: 2em;
 
 }
-div.container > div.usually > div.r2{
-     display: block;
-     border: solid 1px red;
-}
-div.container > div.usually > div.r2 > div.icons
-{
-    border: solid 1px red;
-}
-div.container > div.usually > div.r2 > div.icons2
-{
-}div.container > div.usually > div.r2 > div.icons3
-{
-}div.container > div.usually > div.r2 > div.icons4
-{
-}
-div.container > div.usually > div.r1{
+div.container > div.table_container{
     text-align: center;
 }
-div.container > div.usually > div.r1 > p{
-    display:inline-block;
+#table {
+    display: table;
+    width: 30%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 2em;
 }
-
-div.container > div.usually > div.r2{
-    text-align: center;
+.row {
+    display: table-row;
 }
-/*div.container > div.usually > div.r2 > p{*/
-    /*display: inline-block;*/
-
-/*}*/
-/*div.container > div.usually > div.r1 > div > p{*/
-    /*display: inline;*/
-    /*border: solid 1px red;*/
-    /*position: relative;*/
-/*}*/
+.cell {
+    display: table-cell;
+}
+.col1 {
+    width: 25%;
+}
+.col2 {
+    width: 25%;
+}
+.col3 {
+    width: 25%;
+}
+.col4 {
+    width: 25%;
+}
